@@ -1,0 +1,6 @@
+name: mod-docs
+title: Modular Documentation Reference Guide
+version: 'latest'
+start_ROOT: ROOT:introduction.adoc
+nav:
+- modules/ROOT/nav.adoc
