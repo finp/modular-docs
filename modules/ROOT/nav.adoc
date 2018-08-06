@@ -1,5 +1,5 @@
 // Chapter 1
-* xref:introduction.adoc[Introduction]
+* xref:index.adoc[Introduction]
 
 // Chapter 2
 * xref:assembly_understanding-mod-docs.adoc[Understanding Modular Documentation]

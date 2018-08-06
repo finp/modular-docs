@@ -3,7 +3,7 @@ runtime:
 site:
   title: Community Collaboration Guide
   url: https://redhat-documentation.github.io
-  start_page: community::introduction
+  start_page: mod-docs::introduction
 content:
   sources:
   - url: .

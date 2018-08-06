@@ -4,3 +4,10 @@
 */build/*
 /redhat/build/*
 /community/build/*
+
+/TODO
+/build/
+/public/
+/node_modules/
+/.cache/
+
