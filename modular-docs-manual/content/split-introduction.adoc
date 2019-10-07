@@ -1,0 +1,1 @@
+include::joined.adoc[tags=split-introduction.adoc]
