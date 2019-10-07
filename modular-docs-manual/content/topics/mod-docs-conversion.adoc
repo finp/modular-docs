@@ -1,3 +1,4 @@
+// tag::split-mod-docs-conversion.adoc[]
 [id="converting-to-mod-doc"]
 = Converting to Modular Documentation
 
@@ -37,3 +38,4 @@ include::module_creating-assemblies.adoc[leveloffset=+1]
 include::module_creating-modules.adoc[leveloffset=+1]
 
 include::module_auditing.adoc[leveloffset=+1]
+// end::split-mod-docs-conversion.adoc[]

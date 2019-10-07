@@ -1,3 +1,4 @@
+// tag::split-module_defining-user-stories.adoc[]
 [id="defining-user-stories"]
 = Defining User Stories for Your Product
 
@@ -94,3 +95,4 @@ These will become reference modules.
 ** _Additional user stories..._
 ====
 --
+// end::split-module_defining-user-stories.adoc[]

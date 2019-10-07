@@ -1,3 +1,4 @@
+// tag::split-creating_concept_modules.adoc[]
 [id="creating-concept-modules"]
 = Creating Concept Modules
 
@@ -11,3 +12,4 @@ include::module_guidelines-concept.adoc[leveloffset=+1]
 
 * Download the link:https://raw.githubusercontent.com/redhat-documentation/modular-docs/master/modular-docs-manual/files/TEMPLATE_CONCEPT_concept-explanation.adoc[concept module template (adoc file)] for new projects.
 * For real-world examples of concept modules, see <<modular-docs-concept-examples>>.
+// end::split-creating_concept_modules.adoc[]

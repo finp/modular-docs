@@ -1,3 +1,4 @@
+// tag::split-understanding-mod-docs.adoc[]
 [id="understanding-mod-docs"]
 = Understanding Modular Documentation
 
@@ -8,3 +9,4 @@ include::module_what-modular-documentation-is.adoc[leveloffset=+1]
 include::module_what-modular-documentation-is-not.adoc[leveloffset=+1]
 
 include::module_a-simple-example-of-a-modular-guide.adoc[leveloffset=+1]
+// end::split-understanding-mod-docs.adoc[]

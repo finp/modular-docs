@@ -1,3 +1,4 @@
+// tag::split-module_guidelines-reference.adoc[]
 [id="reference-module-guidelines"]
 = Reference Module Guidelines
 
@@ -20,3 +21,4 @@ To make the reference data easier to scan, organize it in a logical order (such 
 * link:http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables[Tables]
 
 If you have a large volume of the same type of information to document, use a structure into which the information details can fit, and then document each logical unit of information as one reference module. For example, think of man pages, which document very different information details, but which still use consistent titles and formats to present those details in a uniform information structure.
+// end::split-module_guidelines-reference.adoc[]

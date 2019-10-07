@@ -1,3 +1,4 @@
+// tag::split-mod-docs-examples.adoc[]
 [id="appendix-examples"]
 = Module and Assembly Examples
 
@@ -8,3 +9,4 @@ include::module_mod-docs-procedure-examples.adoc[leveloffset=+1]
 include::module_mod-docs-reference-examples.adoc[leveloffset=+1]
 
 include::module_mod-docs-assembly-examples.adoc[leveloffset=+1]
+// end::split-mod-docs-examples.adoc[]

@@ -1,3 +1,4 @@
+// tag::split-module_anchor-and-file-names-concept.adoc[]
 [id="anchor-and-file-names"]
 = Anchor Names and File Names
 
@@ -59,3 +60,4 @@ Ensure that all members of your team use the same file naming conventions.
 .Additional Resources
 
 * The link:http://asciidoctor.org/docs/user-manual/#anchordef[Asciidoctor User Manual]
+// end::split-module_anchor-and-file-names-concept.adoc[]

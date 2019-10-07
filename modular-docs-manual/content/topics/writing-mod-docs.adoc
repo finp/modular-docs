@@ -1,3 +1,4 @@
+// tag::split-writing-mod-docs.adoc[]
 [id="writing-mod-docs"]
 = Writing Modular Documentation
 
@@ -29,3 +30,4 @@ include::forming_assemblies.adoc[leveloffset=+1]
 include::module_reusing-modules-procedure.adoc[leveloffset=+2]
 
 include::module_nesting-assemblies.adoc[leveloffset=+2]
+// end::split-writing-mod-docs.adoc[]

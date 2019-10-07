@@ -1,3 +1,4 @@
+// tag::split-module_mod-docs-reference-examples.adoc[]
 [id="modular-docs-reference-examples"]
 = Reference Module Examples
 
@@ -8,3 +9,4 @@ link:https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/3/html/c
 link:https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_online_on_openshift_container_platform/#retrieving-address-space-information-messaging[Example commands for retrieving address space information]
 
 * link:https://raw.githubusercontent.com/EnMasseProject/enmasse/master/documentation/modules/ref-retrieving-address-space-information.adoc[Associated AsciiDoc code for Example commands for retrieving address space information]
+// end::split-module_mod-docs-reference-examples.adoc[]

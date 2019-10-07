@@ -1,3 +1,4 @@
+// tag::split-module_customer-product-lifecycle.adoc[]
 [id="customer-product-lifecycle"]
 = Overview of the Customer Product Lifecycle
 
@@ -13,3 +14,4 @@ Manage:: Once the product is in production, how does the customer customize and 
 Monitor and Tune:: Once the product is in production, how does the customer monitor its performance in order to know when changes are needed?
 Upgrade and Migrate:: How does the customer upgrade to newer versions of the product?
 Troubleshoot:: How does the customer fix common problems they may encounter?
+// end::split-module_customer-product-lifecycle.adoc[]

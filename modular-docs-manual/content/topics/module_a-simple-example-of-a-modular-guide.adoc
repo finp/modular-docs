@@ -1,3 +1,4 @@
+// tag::split-module_a-simple-example-of-a-modular-guide.adoc[]
 [id="a-simple-example-of-a-modular-guide"]
 = A Simple Example of a Modular Guide
 
@@ -29,3 +30,4 @@ To learn more about how a modular guide works, explore the files and directories
 * In `module-b.adoc`, the AsciiDoc conditional `ifeval` enables reusing the same module with some differences.
 
 Feel free to experiment with the example guide: create new assemblies and modules, reuse modules, introduce new AsciiDoc conditionals.
+// end::split-module_a-simple-example-of-a-modular-guide.adoc[]

@@ -1,3 +1,4 @@
+// tag::split-module_guidelines-assembly.adoc[]
 [id="assembly-guidelines"]
 = Assembly Guidelines
 
@@ -33,3 +34,4 @@ List link:http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#include-f
 The optional additional resources list links to other material closely related to the contents of the assembly, for example, other documentation resources, instructional videos, or labs.
 
 Focus on relevant resources that are likely to be of immediate interest to the user. Do not list resources for completeness.
+// end::split-module_guidelines-assembly.adoc[]

@@ -1,3 +1,4 @@
+// tag::split-module_what-modular-documentation-is.adoc[]
 [id="what-modular-documentation-is"]
 = What Modular Documentation Is
 
@@ -17,3 +18,4 @@ image::modules_assemblies.png[]
 .Additional Resources
 
 * For definitions of the terms we use, including modules, assemblies, and user stories, see <<modular-docs-terms-definitions>>.
+// end::split-module_what-modular-documentation-is.adoc[]

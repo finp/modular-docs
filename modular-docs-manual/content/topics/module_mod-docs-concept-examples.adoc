@@ -1,3 +1,4 @@
+// tag::split-module_mod-docs-concept-examples.adoc[]
 [id="modular-docs-concept-examples"]
 = Concept Module Examples
 
@@ -10,3 +11,4 @@ link:https://access.redhat.com/documentation/en-us/red_hat_jboss_amq/7.0/html-si
 link:https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_online_on_openshift_container_platform/#con-standard-address-space-messaging[Standard address space]
 
 * link:https://raw.githubusercontent.com/EnMasseProject/enmasse/master/documentation/modules/con-standard-address-space.adoc[Associated AsciiDoc code for Standard address space]
+// end::split-module_mod-docs-concept-examples.adoc[]

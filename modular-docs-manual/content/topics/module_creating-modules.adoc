@@ -1,3 +1,4 @@
+// tag::split-module_creating-modules.adoc[]
 [id="creating-modules"]
 = Creating Modules
 
@@ -21,3 +22,4 @@ Use your existing, feature-based manual to get the content. Make sure to rewrite
 * xref:procedure-module-guidelines[Procedure Module Guidelines]
 * xref:reference-module-guidelines[Reference Module Guidelines]
 --
+// end::split-module_creating-modules.adoc[]

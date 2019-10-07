@@ -1,3 +1,4 @@
+// tag::split-module_creating-assemblies.adoc[]
 [id="creating-assemblies"]
 = Creating Assemblies
 
@@ -18,3 +19,4 @@ Be sure to follow the conventions for xref:anchor-and-file-names[naming anchors 
 For more information, see xref:assembly-guidelines[Assembly Guidelines].
 
 . Repeat the previous step for each second-level assembly.
+// end::split-module_creating-assemblies.adoc[]

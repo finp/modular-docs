@@ -1,3 +1,4 @@
+// tag::split-module_guidelines-procedure.adoc[]
 [id="procedure-module-guidelines"]
 = Procedure Module Guidelines
 
@@ -47,3 +48,4 @@ Because of current tooling limitations, you cannot include xref links to other c
 You can include xref links in the assembly that contains the procedure.
 
 Focus on relevant resources that are likely to be of immediate interest to the user. Do not list resources for completeness.
+// end::split-module_guidelines-procedure.adoc[]

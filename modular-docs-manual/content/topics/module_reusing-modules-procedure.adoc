@@ -1,3 +1,4 @@
+// tag::split-module_reusing-modules-procedure.adoc[]
 [id="reusing-modules"]
 = Reusing Modules in Assemblies
 
@@ -255,3 +256,4 @@ or
 ----
 For details, see xref:projects_asset-types[].
 ----
+// end::split-module_reusing-modules-procedure.adoc[]
