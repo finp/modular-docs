@@ -4,9 +4,76 @@
 
 This chapter explains what modular documentation is and what it is not.
 
-include::module_what-modular-documentation-is.adoc[leveloffset=+1]
+:leveloffset: +1
 
-include::module_what-modular-documentation-is-not.adoc[leveloffset=+1]
+[id="what-modular-documentation-is"]
+= What Modular Documentation Is
 
-include::module_a-simple-example-of-a-modular-guide.adoc[leveloffset=+1]
+Modular documentation is documentation based on _modules_, which the writer combines into _assemblies_. An assembly can also include other assemblies.
+
+[IMPORTANT]
+====
+Nesting assemblies too deep can create too much complexity, which might make the documentation difficult to use and maintain. If you are worried this might be the case, consider linking to another assembly as an alternative to direct inclusion.
+====
+
+At Red Hat, we write modular documentation that is based on _user stories_. This means that each assembly documents a user story.
+
+.Schema of a Module and an Assembly
+image::modules_assemblies.png[]
+// The image is just a draft, we can create a fancier one later.
+
+.Additional Resources
+
+* For definitions of the terms we use, including modules, assemblies, and user stories, see <<modular-docs-terms-definitions>>.
+
+:leveloffset: 1
+
+:leveloffset: +1
+
+[id="what-modular-documentation-is-not"]
+= What Modular Documentation Is Not
+
+Legacy (non-modular) documentation split into small, _meaningless_ pieces:: A module must make sense and provide value on its own, even when read separately from the other modules. The templates included in this manual help ensure this.
+A collection of modules that have no relationship to one another:: An unorganized set of modules is confusing to users. That is why we combine modules into:
+* Assemblies that are based on user stories
+* Deliverables, like a book or help system, that present a structured view of the body of knowledge represented by a set of modules
+Always a linear, book-type model:: Modular documentation is designed to enable you to deliver content flexibly. You can combine modules to build lean, article-based content or large, linear books.
+
+:leveloffset: 1
+
+:leveloffset: +1
+
+[id="a-simple-example-of-a-modular-guide"]
+= A Simple Example of a Modular Guide
+
+Download and unzip link:https://github.com/redhat-documentation/modular-docs/blob/master/modular-docs-manual/files/simple-mod-guide-repo.zip[an example modular guide]. The `simple-mod-guide-repo` directory included in the ZIP archive contains a very simple example of a modular guide with assemblies and modules. This section explains the contents of the directory.
+
+NOTE: To build the example guide, change into the `simple-mod-guide-repo` directory, issue the *asciidoctor master.adoc* command, and open the resulting `master.html` file in your browser.
+
+The contents of the directory displayed in a tree-like format:
+
+[subs="+quotes"]
+----
+.
+├── *attributes.adoc* _<-- File with attributes for the whole book._
+├── *docs* _<-- Directory with assemblies and modules._
+│   ├── *assembly-1.adoc* _<-- Assembly files with include statements for modules._
+│   ├── *assembly-2.adoc*
+│   └── *modules*
+│       ├── *module-a.adoc* _<-- Module files._
+│       ├── *module-b.adoc*
+│       ├── *module-c.adoc*
+│       └── *module-d.adoc*
+└── *master.adoc* _<-- Master file that defines the whole book._
+----
+
+To learn more about how a modular guide works, explore the files and directories in this example directory. For example, note that:
+
+* `master.adoc` pulls in the `attribute.adoc` file with AsciiDoc attributes, sets the title of the book, and pulls in the assemblies that comprise the book.
+* Some of the module files (in the `modules` directory) demonstrate how to reuse a module in multiple assemblies.
+* In `module-b.adoc`, the AsciiDoc conditional `ifeval` enables reusing the same module with some differences.
+
+Feel free to experiment with the example guide: create new assemblies and modules, reuse modules, introduce new AsciiDoc conditionals.
+
+:leveloffset: 1
 // end::split-understanding-mod-docs.adoc[]
