@@ -1,7 +1,7 @@
 # add tags to modules
 
 
-for filename in modular-docs-manual/content/topics/*.adoc; do
+for filename in modular-docs-manual/content/topics/module*.adoc; do
         pwd=${PWD}/${filename}
         bname=$(basename "$filename")
         awk 'BEGIN{print "// tag::split-'$bname'[]"}1' $filename > $filename.new

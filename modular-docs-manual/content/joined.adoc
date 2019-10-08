@@ -1,11 +1,9 @@
 :leveloffset: +1
 
-// tag::split-introduction.adoc[]
-/id="introduction"]
+[id="introduction"]
 = Introduction
 
 This manual provides instructions on how to author modularly structured documentation based on user stories. The manual defines used terminology, describes components that form modular documentation, and instructs writers on how to use provided templates to turn user stories into modular documentation.
-// end::split-introduction.adoc[]
 
 :leveloffset: 1
 
@@ -13,7 +11,6 @@ This manual provides instructions on how to author modularly structured document
 // Chapter 2
 :leveloffset: +1
 
-// tag::split-understanding-mod-docs.adoc[]
 [id="understanding-mod-docs"]
 = Understanding Modular Documentation
 
@@ -97,14 +94,12 @@ Feel free to experiment with the example guide: create new assemblies and module
 // end::split-module_a-simple-example-of-a-modular-guide.adoc[]
 
 :leveloffset: 1
-// end::split-understanding-mod-docs.adoc[]
 
 :leveloffset: 1
 
 // Chapter 3
 :leveloffset: +1
 
-// tag::split-writing-mod-docs.adoc[]
 [id="writing-mod-docs"]
 = Writing Modular Documentation
 
@@ -123,7 +118,6 @@ See <<appendix-examples>> for real-world examples of assemblies, modules, and th
 
 :leveloffset: +2
 
-// tag::split-creating_concept_modules.adoc[]
 [id="creating-concept-modules"]
 = Creating Concept Modules
 
@@ -194,13 +188,11 @@ Focus on relevant resources that are likely to be of immediate interest to the u
 
 * Download the link:https://raw.githubusercontent.com/redhat-documentation/modular-docs/master/modular-docs-manual/files/TEMPLATE_CONCEPT_concept-explanation.adoc[concept module template (adoc file)] for new projects.
 * For real-world examples of concept modules, see <<modular-docs-concept-examples>>.
-// end::split-creating_concept_modules.adoc[]
 
 :leveloffset: 1
 
 :leveloffset: +2
 
-// tag::split-creating_procedure_modules.adoc[]
 [id="creating-procedure-modules"]
 = Creating Procedure Modules
 
@@ -279,13 +271,11 @@ Focus on relevant resources that are likely to be of immediate interest to the u
 
 * Download the link:https://raw.githubusercontent.com/redhat-documentation/modular-docs/master/modular-docs-manual/files/TEMPLATE_PROCEDURE_doing-one-procedure.adoc[procedure module template (adoc file)] for new projects.
 * For real-world examples of procedure modules, see <<modular-docs-procedure-examples>>.
-// end::split-creating_procedure_modules.adoc[]
 
 :leveloffset: 1
 
 :leveloffset: +2
 
-// tag::split-creating_reference_modules.adoc[]
 [id="creating-reference-modules"]
 = Creating Reference Modules
 
@@ -362,13 +352,11 @@ If you have a large volume of the same type of information to document, use a st
 * Download the link:https://raw.githubusercontent.com/redhat-documentation/modular-docs/master/modular-docs-manual/files/TEMPLATE_REFERENCE_reference-material.adoc[reference module template (adoc file)] for new projects.
 * For real-world examples of reference modules, see <<modular-docs-reference-examples>>.
 * For advice on when to use lists and when to use tables, see link:https://medium.com/@heyoka/lets-bring-table-to-the-table-again-f1ae751159d5[Let’s bring <table> to the table, again.]
-// end::split-creating_reference_modules.adoc[]
 
 :leveloffset: 1
 
 :leveloffset: +2
 
-// tag::split-using_text_snippets_or_text_fragments.adoc[]
 // Module included in the following assemblies:
 //
 // <List assemblies here, each on a new line>
@@ -399,7 +387,6 @@ Snippet (fragment) file use should be limited to:
 //.Additional resources
 
 //* A bulleted list of links to other material closely related to the contents of the concept module.
-// end::split-using_text_snippets_or_text_fragments.adoc[]
 
 :leveloffset: 1
 
@@ -473,7 +460,6 @@ Ensure that all members of your team use the same file naming conventions.
 
 :leveloffset: +1
 
-// tag::split-forming_assemblies.adoc[]
 [id="forming-assemblies"]
 = Forming Assemblies
 
@@ -536,7 +522,6 @@ Focus on relevant resources that are likely to be of immediate interest to the u
 
 * Download the link:https://raw.githubusercontent.com/redhat-documentation/modular-docs/master/modular-docs-manual/files/TEMPLATE_ASSEMBLY_a-collection-of-modules.adoc[assembly template (adoc file)] for new projects.
 * For real-world examples of assemblies, see <<modular-docs-assembly-examples>>.
-// end::split-forming_assemblies.adoc[]
 
 :leveloffset: 1
 
@@ -829,15 +814,13 @@ To solve this problem, restore the `:context:` variable to its previous value wh
 +
 [source,asciidoc]
 ----
-ifdef::context[:parent-context: {context}]
 ----
 
 . Add the following lines to the end of your assemblies to restore the saved context, if one already existed:
 +
 [source,asciidoc]
 ----
-ifdef::parent-context[:context: {parent-context}]
-ifndef::parent-context[:!context:]
+:!context:
 ----
 
 .Correctly Nested Assemblies
@@ -846,11 +829,9 @@ image::nested-assemblies-correct.png[alt=Correctly Nested Assemblies,width=500]
 ====
 
 See also the link:https://raw.githubusercontent.com/redhat-documentation/modular-docs/master/modular-docs-manual/files/TEMPLATE_ASSEMBLY_a-collection-of-modules.adoc[assembly template] for an example.
-
 // end::split-module_nesting-assemblies.adoc[]
 
 :leveloffset: 1
-// end::split-writing-mod-docs.adoc[]
 
 :leveloffset: 1
 
@@ -923,7 +904,6 @@ NOTE: We do not use the terms _topic_ or _topic-based documentation_ because the
 [appendix]
 :leveloffset: +1
 
-// tag::split-mod-docs-examples.adoc[]
 [id="appendix-examples"]
 = Module and Assembly Examples
 
@@ -992,14 +972,12 @@ link:https://access.redhat.com/documentation/en-us/red_hat_mobile_application_pl
 // end::split-module_mod-docs-assembly-examples.adoc[]
 
 :leveloffset: 1
-// end::split-mod-docs-examples.adoc[]
 
 :leveloffset: 1
 
 [appendix]
 :leveloffset: +1
 
-// tag::split-mod-docs-conversion.adoc[]
 [id="converting-to-mod-doc"]
 = Converting to Modular Documentation
 
@@ -1239,6 +1217,5 @@ On the other hand, it is also possible that the content is related to a user sto
 // end::split-module_auditing.adoc[]
 
 :leveloffset: 1
-// end::split-mod-docs-conversion.adoc[]
 
 :leveloffset: 1

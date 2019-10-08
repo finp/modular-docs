@@ -1,4 +1,4 @@
-for filename in modular-docs-manual/content/topics/*.adoc; do
+for filename in modular-docs-manual/content/topics/module*.adoc; do
 
 bname=$(basename "$filename")
 dname=$(dirname "$filename")
